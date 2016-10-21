@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+  </head>
+  <body>
+    <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p> -->
+    <header class="main-header">
+      <div class="container">
+      	<img src="http://placehold.it/100x50" alt="Лого Barbaershop">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+    	<h1>Средства для ухода</h1>
+    	<section class="breadcrombs">
+    		<a class="breadcrombs-link" href="#">ГЛАВНАЯ</a>
+    		<img class="breadcrombs-img" src="http://placehold.it/10x10">
+    		<a class="breadcrombs-link" href="#">МАГАЗИН</a>
+    		<img class="breadcrombs-img" src="http://placehold.it/10x10">
+    		<a class="breadcrombs-link" href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+    	</section>
+    	<section class="producers">
+    		<h2>Производители:</h2>
+    		<form class="producers-items">
+    			
+    			<input type="checkbox" name="baxter-of-california" id="baxter-of-california" cheked>
+    			<label for="baxter-of-california">BAXTER OF CALIFORNIA</label>
+    			
+    			<input type="checkbox" name="mr-natty" id="mr-natty">
+    			<label for="mr-natty">MR NATTY</label>
+    			
+    			<input type="checkbox" name="suavecito" id="suavecito" checked>
+    			<label for="suavecito">SUAVECITO</label>
+    			
+    			<input type="checkbox" name="malin+goetz" id="malin+goetz">
+    			<label for="malin+goetz">MALIN+GOETZ</label>
+    			
+    			<input type="checkbox" name="murrays" id="murrays">
+    			<label for="murrays">MURRAYS</label>
+    			
+    			<input type="checkbox" name="american-crew" id="american-crew" checked>
+    			<label for="american-crew">AMERICAN CREW</label>
+    		</form>
+    	</section>
+    	<section class="groups">
+    		<h2>Группы товаров:</h2>
+    		<form class="groups-items">
+    			<input class="groups-radio" type="radio" name="groupbox" id="groupbox1" value="Бритвенные принадлежности">
+    			<label for="groupbox1">Бритвенные принадлежности</label>
+    			<input class="groups-radio" type="radio" name="groupbox" id="groupbox2" value="Средства по уходу" checked>
+    			<label for="groupbox2">Средства по уходу</label>
+    			<input class="groups-radio" type="radio" name="groupbox" id="groupbox3" value="Аксессуары">
+    			<label for="groupbox3">Аксессуары</label>
+    		</form>
+    	</section>
+    	<section class="goods-gallery">
+    		<div class="goods">
+    			<img src="http://placehold.it/150x100">
+    			<p>Набор для путешествий<br>"BAXTER OF CALIFORNIA"</p>
+    			<div class="price-and-buy">
+    				<p class="price">2900 РУБ.</p>
+    				<a class="buy" href="#">Купить</a>
+    			</div>
+    		</div>
+    		<div class="goods">
+    			<img src="http://placehold.it/150x100">
+    			<p>Увлажняющий кондиционер<br>"BAXTER OF CALIFORNIA"</p>
+    			<div class="price-and-buy">
+    				<p class="price">750 РУБ.</p>
+    				<a class="buy" href="#">Купить</a>
+    			</div>
+    		</div>
+    		<div class="goods">
+    			<img src="http://placehold.it/150x100">
+    			<p>Гель для волос<br>"SUAVECITO"</p>
+    			<div class="price-and-buy">
+    				<p class="price">290 РУБ.</p>
+    				<a class="buy" href="#">Купить</a>
+    			</div>
+    		</div>
+    		<div class="goods">
+    			<img src="http://placehold.it/150x100">
+    			<p>Глина для укладки волос<br>"AMERICAN CREW"</p>
+    			<div class="price-and-buy">
+    				<p class="price">500 РУБ.</p>
+    				<a class="buy" href="#">Купить</a>
+    			</div>
+    		</div>
+    		<div class="goods">
+    			<img src="http://placehold.it/150x100">
+    			<p>Гель для волос<br>"AMERICAN CREW"</p>
+    			<div class="price-and-buy">
+    				<p class="price">300 РУБ.</p>
+    				<a class="buy" href="#">Купить</a>
+    			</div>
+    		</div>
+    		<div class="goods">
+    			<img src="http://placehold.it/150x100">
+    			<p>Набор для бритья<br>"BAXTER OF CALIFORNIA"</p>
+    			<div class="price-and-buy">
+    				<p class="price">3900 РУБ.</p>
+    				<a class="buy" href="#">Купить</a>
+    			</div>
+    		</div>
+    	</section>
+    	<section class="pagination">
+    		<form class="pagination-items">
+    			<input class="pagination-radio" type="radio" name="paginationbox" id="paginationbox1" value="1">
+    			<label for="paginationbox1">1</label>
+    			<input class="pagination-radio" type="radio" name="paginationbox" id="paginationbox2" value="2" checked>
+    			<label for="paginationbox2">2</label>
+    			<input class="pagination-radio" type="radio" name="paginationbox" id="paginationbox3" value="3">
+    			<label for="paginationbox3">3</label>
+    			<input class="pagination-radio" type="radio" name="paginationbox" id="paginationbox4" value="4">
+    			<label for="paginationbox4">4</label>
+    		</form>
+    	</section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
