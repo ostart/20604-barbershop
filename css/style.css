@@ -159,16 +159,13 @@ body {
 	margin: 0 10px;
 	vertical-align: top;
 	margin-bottom: 20px;
-
 }
 
 .goods:nth-child(3n) {margin-right: 0;}
 
 .price-and-buy {
-	width: 140px;
-	margin: 0 auto;
-
-}
+	width: 170px
+;}
 
 .goods-img-desc {
 	min-height: 300px;
@@ -207,4 +204,13 @@ td:nth-child(2n) { text-align: center; }
 .about-right {
 	float: right;
 	width: 450px;
+}
+
+ul.linear-style {
+	font-size: 0;
+}
+
+ul.linear-style li {
+	display: inline-block;
+	font-size: 20px;
 }
