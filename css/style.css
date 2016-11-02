@@ -1,6 +1,210 @@
 body {
-	font-size: 22px;
+	font-size: 20px;
 	font-color: black;
 	font-family: "PT Sans Narrow", "Arial", serif;
 	font-style: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.outline {
+  outline: 3px solid black;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation {
+	width: 780px;
+	float: left;
+	min-height: 70px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.user-block {
+	width: 140px;
+	float: right;
+	min-height: 70px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  min-height: 175px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+.gallery {
+	float: left;
+	width: 540px;
+}
+
+.gallery-main-figure{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.gallery-figure {
+	float: left;
+	width: 166px;
+	margin-right: 20px;
+}
+
+.gallery-figure:last-child { margin-right: 0; }
+
+.description {
+	float: right;
+	width: 360px;
+}
+
+.description-artikul {
+	float: right;
+}
+
+.contains {
+	float: right;
+	width: 360px;
+}
+
+.producers {
+	display: inline-block;
+	width: 300px;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.goods-pagination {
+	display: inline-block;
+	width: 620px;
+	vertical-align: top;
+}
+
+.goods-gallery {
+	font-size: 0;
+}
+
+.goods {
+	display: inline-block;
+	width: 180px;
+	font-size: 16px;
+	margin: 0 10px;
+	vertical-align: top;
+	margin-bottom: 20px;
+
+}
+
+.goods:nth-child(3n) {margin-right: 0;}
+
+.price-and-buy {
+	width: 140px;
+	margin: 0 auto;
+
+}
+
+.goods-img-desc {
+	min-height: 300px;
+}
+
+table {
+	width: 460px;
+	vertical-align: middle;
+	border-spacing: 0 10px;
+	border-collapse: collapse;
+}
+
+td {
+	border: 2px solid black;
+	width: 230px;
+}
+
+td:nth-child(2n) { text-align: center; }
+
+.best-means {
+	float: left;
+	width: 400px;
+}
+
+.tableron {
+	float: right;
+	width: 480px;
+	padding: 20px;
+}
+
+.about-left {
+	float: left;
+	width: 450px;
+}
+
+.about-right {
+	float: right;
+	width: 450px;
 }
