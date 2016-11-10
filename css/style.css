@@ -485,19 +485,11 @@ body {
   display: none;
 }
 
-.inner-content {
-  margin-bottom: 75px;
-}
-
 .inner-content h2 {
   margin-top: 60px;
   margin-bottom: 30px;
   font-size: 24px;
   line-height: 30px;
-}
-
-.inner-content p {
-  margin: 14px 0;
 }
 
 .inner-content table {
@@ -507,6 +499,10 @@ body {
 .inner-content td {
   padding: 10px 15px;
   border: 2px solid #000000;
+}
+
+.inner-content-price {
+  margin-bottom: 75px;
 }
 
 .inner-page-footer {
@@ -834,6 +830,11 @@ body {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.producers li:nth-child(7), .producers li:nth-child(11) {
+	margin-bottom: 50px;
 }
 
 .goods-pagination {
@@ -871,97 +872,4 @@ body {
 	display: block;
 	padding-top: 16px;
 	padding-left: 16px;
-}
-
-.best-means {
-	float: left;
-	width: 400px;
-}
-
-.tableron {
-	float: right;
-	width: 480px;
-	padding: 20px;
-}
-
-.about-left {
-	float: left;
-	width: 450px;
-}
-
-.about-right {
-	float: right;
-	width: 450px;
-}
-
-ul.linear-style {
-	font-size: 0;
-	display: inline-block;
-}
-
-ul.linear-style li {
-	display: inline-block;
-	font-size: 20px;
-}
-
-
-
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite-cross {
-    width: 12px;
-    height: 12px;
-    background-position: -5px -5px;
-}
-
-.sprite-fb {
-    width: 12px;
-    height: 22px;
-    background-position: -27px -5px;
-}
-
-.sprite-fb-focused {
-    width: 12px;
-    height: 22px;
-    background-position: -49px -5px;
-}
-
-.sprite-icon-login {
-    width: 18px;
-    height: 16px;
-    background-position: -71px -5px;
-}
-
-.sprite-icon-login-focused {
-    width: 18px;
-    height: 16px;
-    background-position: -99px -5px;
-}
-
-.sprite-insta {
-    width: 21px;
-    height: 21px;
-    background-position: -127px -5px;
-}
-
-.sprite-insta-focused {
-    width: 21px;
-    height: 21px;
-    background-position: -158px -5px;
-}
-
-.sprite-vk {
-    width: 25px;
-    height: 16px;
-    background-position: -189px -5px;
-}
-
-.sprite-vk-focused {
-    width: 25px;
-    height: 16px;
-    background-position: -224px -5px;
 }
