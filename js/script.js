@@ -1,18 +1,3 @@
-var mapOpen = document.querySelector(".js-open-map");
-var mapPopup = document.querySelector(".modal-content-map");
-var mapClose = document.querySelector(".modal-content-close");
-
-mapOpen.addEventListener("click", function(event) {
-	event.preventDefault();
-	mapPopup.classList.add("modal-content-show");
-});
-
-mapClose.addEventListener("click", function(event) {
-	event.preventDefault();
-	mapPopup.classList.remove("modal-content-show");
-});
-
-
 var link = document.querySelector(".login");
 var popup = document.querySelector(".modal-content");
 var close = document.querySelector(".modal-content-close");
@@ -37,3 +22,17 @@ window.addEventListener("keydown", function(event) {
 	}
 });
 
+
+var mapOpen = document.querySelector(".js-open-map");
+var mapPopup = document.querySelector(".modal-content-map");
+var mapClose = document.querySelector(".modal-content-map-close");
+
+mapOpen.addEventListener("click", function(event) {
+	event.preventDefault();
+	mapPopup.classList.add("modal-content-show");
+});
+
+mapClose.addEventListener("click", function(event) {
+	event.preventDefault();
+	mapPopup.classList.remove("modal-content-show");
+});
